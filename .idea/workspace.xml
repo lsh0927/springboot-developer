@@ -4,71 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33508f1b-86e0-46b5-8d1b-5fb2e6c43933" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/DatabaseConnectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/DatabaseInsertExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/DatabaseRetrieveExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/SpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/WebOAuthSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/jwt/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/jwt/TokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/oauth/OAuth2SuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/config/oauth/OAuth2UserCustomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/controller/BlogApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/controller/BlogViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/controller/TokenApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/controller/UserApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/controller/UserViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/domain/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/AddArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/AddUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/ArticleListViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/ArticleViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/CreateAccessTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/CreateAccessTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/service/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/oauthLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-    </list>
+    <list default="true" id="33508f1b-86e0-46b5-8d1b-5fb2e6c43933" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -266,7 +202,7 @@
       <workItem from="1692262018462" duration="1412000" />
       <workItem from="1692267632652" duration="20539000" />
       <workItem from="1692410753518" duration="8108000" />
-      <workItem from="1692423550537" duration="3724000" />
+      <workItem from="1692423550537" duration="4501000" />
     </task>
     <servers />
   </component>
