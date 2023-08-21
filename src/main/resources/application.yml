@@ -24,14 +24,11 @@ spring:
       client:
         registration:
           google:
-            client-id: 785390782441-ca2ra3le76e9ne8lhhmclt86n1kt7min.apps.googleusercontent.com
-            client-secret: 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
+
             scope:
               - email
               - profile
-jwt:
-  issuer: rlxktmdgjs@gmail.com
-  secret_key: study-springboot
+
 #
 #  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 #  spring.datasource.url=jdbc:mysql://localhost:3306/[db명]?serverTimezone=UTC&characterEncoding=UTF-8
